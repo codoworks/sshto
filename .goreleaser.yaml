@@ -51,3 +51,14 @@ release:
   draft: false
   prerelease: auto
   name_template: "v{{ .Version }}"
+
+brews:
+  - repository:
+      owner: codoworks
+      name: homebrew-tap
+    directory: Formula
+    homepage: "https://github.com/codoworks/sshto"
+    description: "Fast SSH connection manager with interactive TUI"
+    license: "MIT"
+    test: |
+      system "#{bin}/sshto", "--help"

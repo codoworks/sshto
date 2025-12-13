@@ -7,12 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
-- GoReleaser configuration for cross-platform binary releases
-- GitHub Actions release workflow triggered on version tags
-
-## [0.1.0] - 2024-12-14
+## [0.1.0] - 2025-12-14
 
 ### Added
 
@@ -26,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Default settings for user, port, and SSH key
 - Input validation for hosts, ports, and server names
 - Beautiful terminal UI with Lipgloss styling
+- GoReleaser configuration for cross-platform binary releases
+- GitHub Actions release workflow triggered on version tags
+- Homebrew tap support via `brew tap codoworks/tap && brew install sshto`
 
 [Unreleased]: https://github.com/codoworks/sshto/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/codoworks/sshto/releases/tag/v0.1.0

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- GoReleaser configuration for cross-platform binary releases
+- GitHub Actions release workflow triggered on version tags
+
 ## [0.1.0] - 2024-12-14
 
 ### Added

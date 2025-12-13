@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-12-14
+
+### Changed
+
+- Migrate from `brews` to `homebrew_casks` in GoReleaser (deprecation fix)
+- Update `archives.format` to `archives.formats` list syntax (deprecation fix)
+
 ## [0.1.0] - 2025-12-14
 
 ### Added
@@ -25,5 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Actions release workflow triggered on version tags
 - Homebrew tap support via `brew tap codoworks/tap && brew install sshto`
 
-[Unreleased]: https://github.com/codoworks/sshto/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/codoworks/sshto/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/codoworks/sshto/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/codoworks/sshto/releases/tag/v0.1.0

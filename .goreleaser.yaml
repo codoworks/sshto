@@ -55,11 +55,21 @@ release:
   name_template: "v{{ .Version }}"
 
 homebrew_casks:
-  - repository:
+  - name: sshto
+    repository:
       owner: codoworks
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
-    directory: Formula
     homepage: "https://github.com/codoworks/sshto"
     description: "Fast SSH connection manager with interactive TUI"
     license: "MIT"
+    binaries:
+      - sshto
+    commit_author:
+      name: goreleaserbot
+      email: bot@goreleaser.com
+    commit_msg_template: "Brew cask update for {{ .ProjectName }} version {{ .Tag }}"
+    caveats: |
+      To get started, run:
+        sshto --help
+    skip_upload: auto
